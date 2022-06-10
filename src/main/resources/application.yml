@@ -16,7 +16,7 @@ spring:
         auto-commit: false
     camunda:
       driver-class-name: ${CAMUNDA_DATABASE_DRIVER:org.postgresql.Driver}
-      url: ${CAMUNDA_DATABASE_URL:jdbc:postgresql://localhost:5432/camunda_db}
+      url: ${CAMUNDA_DATABASE_URL:jdbc:postgresql://localhost:5433/camunda_db}
       username: ${CAMUNDA_DATABASE_USERNAME:postgres}
       password: ${CAMUNDA_DATABASE_PASSWORD:postgres}
       hikari:
